@@ -15,6 +15,7 @@ try {
 const nextConfig = {
     output: 'export',  // This is crucial for static exports
     basePath: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
     eslint: {
         ignoreDuringBuilds: true,
     },

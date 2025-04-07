@@ -57,7 +57,7 @@ export default function AboutMe() {
           {/* Profile Image Section */}
           <motion.div variants={itemVariants} className="relative z-10 w-full max-w-sm md:max-w-md lg:max-w-lg rounded-lg overflow-hidden border-4 border-purple-600 shadow-xl shadow-purple-900/30 mx-auto">
             <Image
-                src="/norimane2.png"
+                src="norimane2.png"
                 alt="Profile"
                 width={600}
                 height={600}

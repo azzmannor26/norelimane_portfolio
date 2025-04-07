@@ -34,7 +34,7 @@ export default function FloatingAstronaut() {
             style={{ minHeight: "450px" }} // ✅ Ensures height is defined
         >
           <Image
-              src="/norimane.png"
+              src="norimane.png"
               alt="Azzman Nor Elimane"
               fill
               className="rounded-full object-cover"

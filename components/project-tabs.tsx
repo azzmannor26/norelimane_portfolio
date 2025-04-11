@@ -36,7 +36,7 @@ export default function ProjectTabs() {
         image: "projects/mirai3.jpg?height=300&width=400",
         description:
             "2024 – 2025 · Reinventing intern management with AI. Features include smart recruitment, real-time progress tracking, automated evaluations, and chatbot integration.\nTech: React.js, Spring Boot, PostgreSQL, UML, CV filtering system.",
-        url: "/#contact",
+        url: "https://github.com/azzmannor26/azzmannourelimane/tree/mirai",
       },
       {
         title: "CLUBHUB – School Club Management Platform",
@@ -50,7 +50,7 @@ export default function ProjectTabs() {
         image: "projects/activity.jfif?height=300&width=400",
         description:
             "May – Jun 2024 · Infrastructure for a kids’ extracurricular activity site. Set up NGINX, Docker, and CI/CD with Kubernetes. Deployed on AWS with Ubuntu and Kali Linux.\nTech: Docker, Kubernetes, AWS, Linux, NGINX, PostgreSQL, SSL.",
-        url: "https://github.com/azzmannor26/azzmannourelimane/tree/Devops",
+        url: "https://github.com/azzmannor26/azzmannourelimane/tree/geniuslab",
       },
       {
         title: "FMPT – Pneumonia Diagnosis AI Tool",
@@ -64,7 +64,7 @@ export default function ProjectTabs() {
         image: "projects/gmail.png?height=300&width=400",
         description:
             "Jul – Aug 2024 · Developed an automation bot to manage Gmail/Yahoo email flows securely using OAuth, Flask, and Selenium with logging and error handling.\nTech: Python, Selenium, Threads, OAuth 2.0.",
-        url: "/#contact",
+        url: "https://github.com/azzmannor26/azzmannourelimane/tree/automation_bot",
       },
       {
         title: "School Management System – Java & Spring",

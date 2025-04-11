@@ -82,6 +82,14 @@ export default function Certifications() {
       description: "Learned to build and deploy WordPress websites using free hosting and sub-domain services.",
       link: "https://www.coursera.org/account/accomplishments/verify/SUUB7WYH3MKY?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
     },
+    {
+      title: "Cloud Computing Fundamentals",
+      issuer: "IBM SkillsBuild",
+      date: "April 2025",
+      description: "Demonstrated knowledge of cloud services, deployment models, virtualization, orchestration, and cloud security. Gained conceptual understanding of creating containers, deploying web apps to the cloud, and analyzing security in simulated environments. Explored cloud benefits, job outlook, and required skills for success in various roles.",
+      link: "https://www.credly.com/badges/0a28b2b2-11c0-4ac2-8b92-258a2d700c33/linked_in_profile" // replace this with the actual verification link if available
+    },
+
   ]
 
   return (

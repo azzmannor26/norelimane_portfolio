@@ -13,7 +13,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',  // This is crucial for static exports
+    output: 'standalone',  // This is crucial for static exports
     basePath: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
     assetPrefix: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
     eslint: {

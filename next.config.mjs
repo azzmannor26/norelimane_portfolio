@@ -13,24 +13,21 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone',  // This is crucial for static exports
-    basePath: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/norelimane_portfolio' : '',
+    reactStrictMode: true,
+    output: 'standalone', // Keep this for Vercel
     eslint: {
         ignoreDuringBuilds: true,
     },
     typescript: {
         ignoreBuildErrors: true,
     },
-    images: {
-        unoptimized: true,  // Required for static export
-    },
     experimental: {
+        appDir: true,
         webpackBuildWorker: true,
         parallelServerBuildTraces: true,
         parallelServerCompiles: true,
     },
-}
+};
 
 if (userConfig) {
     // ESM imports will have a "default" property

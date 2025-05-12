@@ -86,6 +86,13 @@ export default function ProjectTabs() {
             "2023 – 2024 · A collection of ML projects focused on prediction and classification problems:\n\n• SONAR Rock vs Mine Classification\n• Image Processing Pipeline\n• Diabetes Prediction Model\n• Credit Card Fraud Detection\n• Housing Price Prediction\n\nTech: Python, Pandas, Scikit-learn, Matplotlib, Seaborn, OpenCV, Streamlit.",
         url: "https://github.com/azzmannor26/azzmannourelimane/tree/machine-learning-projects", // Customize the URL if needed
       },
+      {
+        title: "Internship Prediction System – HR Forecasting Tool",
+        image: "projects/ml_prediction.jpg?height=300&width=400", // Replace with your actual image if available
+        description:
+            "2025 · Built an AI-driven internship prediction system for HR. This system predicts the number of interns needed in different departments based on the input data such as skills, department, and urgency level.\nTech: React, FastAPI, Python, Machine Learning, PostgreSQL.",
+        url: "https://github.com/azzmannor26/azzmannourelimane/tree/HR_prediction_system", // Update with the actual URL if applicable
+      },
     ],
 
     // Extracurricular Projects

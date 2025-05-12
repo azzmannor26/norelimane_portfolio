@@ -47,13 +47,6 @@ export default function Certifications() {
       link: "#",
     },
     {
-      title: "Front-End Web Development",
-      issuer: "Meta",
-      date: "June 2022",
-      description: "Advanced front-end development techniques using React, responsive design, and modern CSS.",
-      link: "#",
-    },
-    {
       title: "Full-Stack JavaScript Developer",
       issuer: "Udacity",
       date: "December 2021",
@@ -89,6 +82,15 @@ export default function Certifications() {
       description: "Demonstrated knowledge of cloud services, deployment models, virtualization, orchestration, and cloud security. Gained conceptual understanding of creating containers, deploying web apps to the cloud, and analyzing security in simulated environments. Explored cloud benefits, job outlook, and required skills for success in various roles.",
       link: "https://www.credly.com/badges/0a28b2b2-11c0-4ac2-8b92-258a2d700c33/linked_in_profile" // replace this with the actual verification link if available
     },
+    {
+      title: "Hands-on Machine Learning Deployment: A Practical Guide to Docker, Kubernetes, and KubeFlow Pipeline",
+      issuer: "ENSA de Tanger",
+      date: "March – April 2025",
+      description:
+          "Nous soussignés, attestons par la présente que : A participé activement à la formation intitulée “Hands-on Machine Learning Deployment: A Practical Guide to Docker, Kubernetes, and KubeFlow Pipeline”, qui s’est déroulée à l’ENSA de Tanger les samedis 21 mars, 12 et 19 avril 2025. Le volume horaire équivalent de cette formation est estimé à 20 heures.",
+      link: "https://www.linkedin.com/posts/nour-elimane-azzman-a348b6239_attestationmldeploymentwithdockerkuberneteskubeflow-activity-7327702476223123456-m0fC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtmWUgB4wkTQBdWVzhJ2ndhMLW1RA1YyOI", // You can replace this with a link if available
+    }
+
 
   ]
 
